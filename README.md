@@ -226,4 +226,4 @@ None at the moment. Please report any issues you find.
 
 ---
 
-**Made with ❤️ for Gopal Ring Center**
+**Made with Dhiroj Kumar Pandit for Gopal Ring Center**
