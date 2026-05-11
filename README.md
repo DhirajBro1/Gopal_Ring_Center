@@ -136,7 +136,10 @@ Gopal_Ring_Center/
 ├── index.php                 # Main entry point
 ├── .htaccess                 # URL rewriting
 ├── README.md                 # This file
-├── admin/                    # Admin panel
+├── admin/                   # Admin panel
+|   ├── bill.php             #Online Bill
+|   ├── offline-bill-create.php #Offline bill
+|   ├── offline-bill.php        #offline bill
 │   ├── dashboard.php        # Admin dashboard
 │   ├── products.php         # Manage products
 │   ├── customers.php        # Manage customers
@@ -154,8 +157,6 @@ Gopal_Ring_Center/
 ├── includes/
 │   └── db.php               # Database connection
 ├── public/
-│   ├── css/                 # Stylesheets
-│   ├── js/                  # JavaScript files
 │   └── images/              # Product images
 └── errors/
     └── 404.php              # 404 error page
