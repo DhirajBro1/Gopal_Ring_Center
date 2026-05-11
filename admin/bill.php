@@ -208,6 +208,7 @@ function bill_url_with_lang($lang) {
         }
         .foot {
             margin-top: 18px;
+            margin-bottom: 50px;
             border-top: 1px solid #111;
             padding-top: 10px;
             text-align: center;
@@ -223,9 +224,20 @@ function bill_url_with_lang($lang) {
         }
         .sign-line {
             border-top: 1px dotted #111;
-            padding-top: 6px;
+            padding-top: 0;
             margin: 0 auto;
             width: 60%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .sign-signature {
+            width: 80px;
+            height: 50px;
+            object-fit: contain;
+            display: block;
+            margin-top: -50px;
+            margin-bottom: 4px;
         }
         .computer-note {
             margin-top: 14px;
@@ -334,9 +346,16 @@ function bill_url_with_lang($lang) {
         <div class="foot">
             <div><?php echo t('भुलचुक लिनेदिने','To take responsibility for mistakes'); ?></div>
         </div>
-        <div class="sign-row" style="grid-template-columns: repeat(2, 1fr);">
+        <div class="sign-row" style="grid-template-columns: repeat(3, 1fr);">
             <div class="sign-line"><?php echo t('क्रेता','Buyer'); ?></div>
-            <div class="sign-line"><?php echo t('विक्रेता','Seller'); ?></div>
+            <div class="sign-line">
+                <img src="../public/images/sign_dp_white.png" alt="Dhiraj's Signature" class="sign-signature">
+                <div><?php echo t('दर्ता गर्नेः धीरज पण्डित','Entered By: Dhiraj Pandit'); ?></div>
+            </div>
+            <div class="sign-line">
+                <img src="../public/images/sign_gp_white.png" alt="Gopal's Signature" class="sign-signature">
+                <div><?php echo t('विक्रेता','Seller'); ?></div>
+            </div>
         </div>
         <div class="computer-note"><?php echo t('यो बिल कम्प्युटरबाट तयार गरिएको हो।','This bill is computer generated.'); ?></div>
     </div>
