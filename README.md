@@ -28,7 +28,9 @@ A modern e-commerce platform for premium cement and clay products, built with PH
 ### Admin Features
 - **Admin Dashboard** - Manage products, customers, and orders
 - **Product Management** - Add, edit, and manage product inventory
-- **Order Management** - View and update order statuses
+- **Order Management** - View orders and update order statuses
+- **Billing & Invoice Printing** - Generate bilingual (English/Nepali) printable bills for orders
+- **Offline Billing** - Create custom bills for walk-in customers with manual items
 - **Customer Management** - View customer details and history
 
 ## 🛠️ Tech Stack
