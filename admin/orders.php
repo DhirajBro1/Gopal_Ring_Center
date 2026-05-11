@@ -71,6 +71,15 @@ $orders = $conn->query("
                     <button type="submit" name="update_status" class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600 ml-2">Update</button>
                 </form>
 
+                <div class="mb-4">
+                    <a href="bill?id=<?php echo $order['order_id']; ?>&lang=en" target="_blank" class="inline-block bg-amber-600 text-white px-3 py-1 rounded hover:bg-amber-700 mr-2">
+                        Print Bill (EN)
+                    </a>
+                    <a href="bill?id=<?php echo $order['order_id']; ?>&lang=ne" target="_blank" class="inline-block bg-amber-600 text-white px-3 py-1 rounded hover:bg-amber-700">
+                        Print Bill (NP)
+                    </a>
+                </div>
+
                 <div class="mb-2">
                     <p><strong>User:</strong> <?php echo $order['user_name']; ?></p>
                     <p><strong>Email:</strong> <?php echo $order['email']; ?></p>

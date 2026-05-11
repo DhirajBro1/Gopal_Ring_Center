@@ -34,6 +34,12 @@ switch($route) {
     case 'admin/orders':
         include 'admin/orders.php';
         break;
+    case 'admin/bill':
+        include 'admin/bill.php';
+        break;
+    case 'admin/offline-bill-create':
+        include 'admin/offline-bill-create.php';
+        break;
     case 'admin/logout':
         include 'admin/logout.php';
         break;

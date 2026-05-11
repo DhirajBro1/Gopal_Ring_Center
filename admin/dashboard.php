@@ -24,14 +24,15 @@ $admin_name = $_SESSION['admin_name'];
     <div class="container mx-auto p-6">
         <h1 class="text-3xl font-bold mb-4">Welcome, <?php echo $admin_name; ?>!</h1>
 
-        <div class="flex gap-4 mb-6">
+        <div class="flex gap-4 mb-6 flex-wrap">
             <a href="products" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Manage Products</a>
             <a href="orders" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">View Orders</a>
+            <a href="offline-bill-create" class="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600">Offline Billing</a>
             <a href="customers" class="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600">Manage Customers</a>
             <a href="logout" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Logout</a>
         </div>
 
-        <p>Use the above buttons to manage products and view customer orders.</p>
+        <p>Use Billing / Print Bills to open Orders, then click Print Bill for any order.</p>
     </div>
 </body>
 </html>
