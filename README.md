@@ -188,8 +188,8 @@ Currently, no online payment is required. Orders are placed and processed after 
 ## 📞 Contact Information
 
 - **Phone:** +977-981-7319154
-- **Email:** info@gopalringcenter.com
-- **Location:** Kathmandu, Nepal
+- **Email:** dp296296296@gmail.com
+- **Location:** Urlabari, Nepal
 
 ## 🔐 Security Features
 
@@ -229,4 +229,4 @@ None at the moment. Please report any issues you find.
 
 ---
 
-**Made with Dhiroj Kumar Pandit for Gopal Ring Center**
+**Made by Dhiroj Kumar Pandit for Gopal Ring Center**
